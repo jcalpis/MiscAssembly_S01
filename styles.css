@@ -66,34 +66,34 @@ a::selection {
 }
 
 div[href^=tel] {
-  text-decoration:inherit;
-  color: inherit;
+  text-decoration: none !important;
+  color:  #000 !important;
 }
 
 .InstagramLinkCSS:link, .InstagramLinkCSS:visited,
 .YoutubeLinkCSS:link, .YoutubeLinkCSS:visited {
   text-decoration: none;
   color: #000;
-  background: none;
+  background: transparent;
 }
 .InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
   text-decoration: underline;
   color: #000;
-  background: none;
+  background: transparent;
 }
 
 @media (hover: hover) { 
   .InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
     text-decoration: underline;
     color: #000;
-    background: none;
+    background: transparent;
   }
 }
 
 .InstagramLinkCSS:active, .YoutubeLinkCSS:active {
   text-decoration: none;
   color: #000;
-  background: none;
+  background: transparent;
 }
 @media only screen and (max-width: 680px){
   a{
