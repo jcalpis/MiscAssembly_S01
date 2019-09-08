@@ -68,10 +68,15 @@ a::selection {
   text-decoration: none;
   color: #000;
 }
-
 .InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
   text-decoration: underline;
   color: #000;
+}
+@media (hover:none), 
+(hover:on-demand) {
+  nav a:hover {
+    background: none;
+  }
 }
 .InstagramLinkCSS:active, .YoutubeLinkCSS:active {
   text-decoration: none;
