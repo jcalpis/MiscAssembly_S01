@@ -68,7 +68,11 @@ a::selection {
   text-decoration: none;
   color: #000;
 }
-html.nontouch nav .InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
+html.nontouch nav .InstagramLinkCSS:hover {
+  text-decoration: underline;
+  color: #000;
+}
+html.nontouch nav .YoutubeLinkCSS:hover {
   text-decoration: underline;
   color: #000;
 }
