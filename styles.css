@@ -74,29 +74,30 @@ div[href^=tel] {
 .YoutubeLinkCSS:link, .YoutubeLinkCSS:visited {
   text-decoration: none;
   color: #000;
-  background: transparent;
 }
 .InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
   text-decoration: underline;
   color: #000;
-  background: transparent;
 }
 
 @media (hover: hover) { 
   .InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
     text-decoration: underline;
     color: #000;
-    background: transparent;
   }
 }
 
 .InstagramLinkCSS:active, .YoutubeLinkCSS:active {
   text-decoration: none;
   color: #000;
-  background: transparent;
 }
 @media only screen and (max-width: 680px){
   a{
     text-decoration: none !important;
   }
+}
+
+.InstagramLinkCSS, .YoutubeLinkCSS {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
 }
