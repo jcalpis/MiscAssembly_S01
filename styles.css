@@ -1,0 +1,61 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.BodyClickAreaCSS {
+  z-index: 1;
+  background-color: #ffffff;
+  height: 100vh;
+  cursor: help;
+}
+
+.BrandVideoCSS {
+  z-index: 2;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  width: 66.66%;
+  cursor: help;
+}
+@media screen and (min-width: 600px) {
+  .BrandVideoCSS {
+    width: 400px;
+  }
+}
+
+.ContactInfoCSS {
+  z-index: 3;
+  color: #000;
+  text-align: center;
+  font-family: "Arial";
+  font-weight: normal;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -54%);
+  font-size: 8vw;
+}
+@media screen and (min-width: 600px) {
+  .ContactInfoCSS {
+    font-size: 48px;
+  }
+}
+
+.InstagramLinkCSS:link, .InstagramLinkCSS:visited,
+.YoutubeLinkCSS:link, .YoutubeLinkCSS:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.InstagramLinkCSS:active, .YoutubeLinkCSS:active {
+  text-decoration: none;
+  color: #000;
+}
