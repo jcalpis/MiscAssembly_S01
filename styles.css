@@ -74,10 +74,12 @@ div[href^=tel] {
 .YoutubeLinkCSS:link, .YoutubeLinkCSS:visited {
   text-decoration: none;
   color: #000;
+  background: none;
 }
 .InstagramLinkCSS:hover, .YoutubeLinkCSS:hover {
   text-decoration: underline;
   color: #000;
+  background: none;
 }
 
 @media (hover: hover) { 
@@ -91,6 +93,7 @@ div[href^=tel] {
 .InstagramLinkCSS:active, .YoutubeLinkCSS:active {
   text-decoration: none;
   color: #000;
+  background: none;
 }
 @media only screen and (max-width: 680px){
   a{
