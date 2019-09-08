@@ -7,7 +7,4 @@ function ContactInfoAppear() {
   }
 }
 
-var touchsupport = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)
-if (!touchsupport){
-    document.documentElement.className += " non-touch"
-}
+(function(l){var i,s={touchend:function(){}};for(i in s)l.addEventListener(i,s)})(document);
