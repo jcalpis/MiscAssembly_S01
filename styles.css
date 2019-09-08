@@ -38,11 +38,29 @@ body {
   left: 50%;
   transform: translate(-50%, -54%);
   font-size: 8vw;
+  cursor: default;
 }
 @media screen and (min-width: 600px) {
   .ContactInfoCSS {
     font-size: 48px;
   }
+}
+
+div::-moz-selection { 
+  background: none;
+  color: #000;
+}
+div::selection { 
+  background: none;
+  color: #000;
+}
+a::-moz-selection { 
+  background: none;
+  color: #000;
+}
+a::selection { 
+  background: none;
+  color: #000;
 }
 
 .InstagramLinkCSS:link, .InstagramLinkCSS:visited,
